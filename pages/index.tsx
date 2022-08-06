@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Agenda from "../components/Agenda";
 import HeroSection from "../components/HeroSection";
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
 
       <main>
         <HeroSection />
+        <Agenda />
       </main>
     </div>
   );
